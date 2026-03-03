@@ -1,6 +1,6 @@
 # ![PhantomX](https://github.com/user-attachments/assets/3faa74fd-e006-4455-8cf9-80848a830445) PhantomX
 
-[![Release](https://img.shields.io/github/v/release/Agnivesh-Anil-Warrier/PhantomX?color=blue&style=for-the-badge)](https://github.com/YourUsername/PhantomX/releases)
+[![Release](https://img.shields.io/github/v/release/Agnivesh-Anil-Warrier/PhantomX?color=blue&style=for-the-badge)](https://github.com/Agnivesh-Anil-Warrier/PhantomX/releases)
 [![License](https://img.shields.io/github/license/Agnivesh-Anil-Warrier/PhantomX?color=green&style=for-the-badge)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/Agnivesh-Anil-Warrier/PhantomX?color=yellow&style=for-the-badge)](https://github.com/YourUsername/PhantomX/issues)
 [![Last Commit](https://img.shields.io/github/last-commit/Agnivesh-Anil-Warrier/PhantomX?color=red&style=for-the-badge)](https://github.com/YourUsername/PhantomX/commits/main)
