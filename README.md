@@ -52,7 +52,7 @@
 
 ---
 
-## Usage of **Phantom-Lite Version**
+## Usage of **PhantomX Version**
 
 
 1. Launch from your applications menu.
