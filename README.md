@@ -13,7 +13,7 @@
 
 ## Features
 
-* Automatically previews PDFs in your browser.
+* Automatically previews PPTXs, DOCXs and PDFs as PDFs in your browser.
 * Works entirely offline.
 * Minimal setup  just download, make executable, and set up.
 
