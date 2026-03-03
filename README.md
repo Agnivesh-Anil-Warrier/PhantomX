@@ -7,7 +7,7 @@
 
 ---
 
-**PhantomX** is a lightweight desktop utility that automatically converts `.pptx` and `.docx` files to `.pdf` and opens them in a preview viewer. No terminal commands are required as a system tray icon provides easy access.
+**PhantomX** is a lightweight desktop utility that automatically converts `.pptx` and `.docx` files to `.pdf` and opens them in a preview viewer.
 
 ---
 
@@ -24,10 +24,9 @@
 | `.pptx` → PDF Conversion | ✅ | ✅ |
 | `.docx` → PDF Conversion | ❌ | ✅ |
 | Handling of PDFs if they are placed in inbox | ❌ | ✅ |
-| System Tray Icon | ❌ | ✅ |
 | Automatic Browser Preview | ✅ | ✅ |
 | Offline Functionality | ✅ | ✅ |
-| Easy Installation (Desktop Entry) | Optional | ✅ |
+| Easy Installation (Desktop Entry) | ✅ | ✅ |
 | Minimal Setup | ✅ | ✅ |
 
 
@@ -37,71 +36,49 @@
 
 1. Download the desired file from the ***Releases*** section.
 
-2. **Lite Version:** ![Lite](https://img.shields.io/badge/Lite-Yes-blue)  
 
-   * Make the AppImage executable and run it:
-
-   ```bash
-   chmod +x Phantom-Lite.AppImage
-   ./Phantom-Lite.AppImage
-   ```
-
-   * Setup is complete. You can either run the command everytime to open the app or create a desktop entry (with terminal=True) in your desired location.
-
-3. **X Version Full Version:** ![Full](https://img.shields.io/badge/Full-Yes-red)
-
+2.
    * Extract the downloaded folder.
-   * Inside the folder, run the installer:
+   * Inside the folder, run the setup:
 
    ```bash
-   chmod +x install.sh
-   ./install.sh
+   chmod +x <setupname.sh>
+   ./<setupname.sh>
    ```
 
-   * The app will be installed to `~/.local/share/PhantomX` and a desktop entry will be created.
+   * The app will be installed to `~/.local/share` and a desktop entry will be created.
 
-4. **PhantomX** will be available from your applications menu.
+4. **PhantomX / Phantom-Lite** will be available from your applications menu.
 
 ---
 
-## Usage
+## Usage of **Phantom-Lite Version**
 
-**PhantomX (Full Version)**
 
-1. Launch **PhantomX** from your applications menu.
+1. Launch from your applications menu.
 2. Place `.pptx` or `.docx` files into the **Inbox** folder on your Desktop:
 
    ```
    ~/Desktop/PhantomX/Inbox
    ```
 3. The app will automatically convert the files to PDF and open them in your default browser.
-4. Use the system tray icon to quit the application when done.
+4. Use CTRL+C to quit.
 
 **Phantom-Lite Version**
 
-1. Run **Phantom-Lite** once.
-2. A folder named `ppt-auto-preview` will be created on your Desktop.
-3. Place `.pptx` files into the `Inbox` folder inside this directory.
-4. The app will automatically convert and open the PDFs in your default browser.
-5. Close the app using `Ctrl+C` in the terminal when finished.
+. Similar steps
 
 ---
 
 ## Uninstallation
 
-Simply remove the app folder and desktop entry:
-
-```bash
-rm -rf ~/.local/share/PhantomX
-rm ~/.local/share/applications/PhantomX.desktop
-```
+Simply remove the app folder and desktop entry.
 
 ---
 
 ## Dependencies (Most likely your system satisfies these)
 
-* Linux desktop environment with system tray support.
-* `LibreOffice` installed for document conversion.
+* Linux distribution with `LibreOffice` installed for document conversion.
 
 ---
 
