@@ -23,7 +23,7 @@
 |---------|:-----------:|:----------------------:|
 | `.pptx` → PDF Conversion | ✅ | ✅ |
 | `.docx` → PDF Conversion | ❌ | ✅ |
-| Handling of PDFs if they are placed in inbox | ❌ | ✅ |
+| Handling of PDFs | ❌ | ✅ |
 | Automatic Browser Preview | ✅ | ✅ |
 | Offline Functionality | ✅ | ✅ |
 | Easy Installation (Desktop Entry) | ✅ | ✅ |
@@ -66,7 +66,7 @@
 
 **Phantom-Lite Version**
 
-. Similar steps
+> Similar steps (But folder would be ppt-auto-preview/inbox in Desktop)
 
 ---
 
